@@ -19,11 +19,79 @@
 <span>tudo bem</span>
 <p>
     Imagem da internet
-    
     Imagem do pc
 </p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="", width="60", height="60">
 <img src="/home/conrado/Imagens/html.png" alt="", width="100", height="100">
+<table border="1">
+    <thead>
 
+    </thead>
+    <tbody>
+        <tr>
+            <th>Nome</th>
+            <th colspan="2">Idade</th>
+        </tr>
+    </tbody>
+    <tr>
+        <td>Conrado</td>
+        <td>21</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Lul</td>
+        <td>18</td>
+        <td>23</td>
+    </tr>
+</table>
+<p>Lista sem ordem </p>
+<ul>
+    <li>Primeiro</li>
+    <li>
+        <span>Segundo</span>
+        <ul>
+            <li>Outro</li>
+            <li>Mais um</li>
+        </ul>
+    </li>
+    <li>Terceiro</li>
+</ul>
+<p>Lista ordenada</p>
+<ol type="I">
+    <li>Primeiro</li>
+    <li>
+        <span>Segundo</span>
+        <ol>
+                <li>Algo</li>
+                <li>Outro</li>
+        </ol>
+    </li>
+    <li>Terceiro</li>
+</ol>
+
+<p>Forms</p>
+<form action="">
+    <label for="">Nome</label>
+    <input type="text" name="Nome" required>
+    <br>
+    <label for="">Senha</label>
+    <input type="password" name="Senha" required>
+    <br>
+    <label for="">Descrição</label>
+    <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+    <p>Interesses</p>
+    <label for="">HTML</label>
+    <input type="checkbox" name="HTML">
+    <label for="">CSS</label>
+    <input type="checkbox" name="CSS">
+    <br>
+    <p>Sexo</p>
+    <label for="">Masculino</label>
+    <input type="radio" name="sexo" value="masculino" required>
+    <label for="">Feminino</label>
+    <input type="radio" name="sexo" value="feminino" required>
+    <br>
+    <input type="submit">
+</form>
 </body>
 </html>
